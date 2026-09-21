@@ -4,7 +4,7 @@ use sycamore::prelude::*;
 fn Logo() -> View {
     view! {
         a(class="brand", href="#home") {
-            img(class="brand-mark", src="public/logo.png", alt="Marco Richard")
+            img(class="brand-mark", src="public/logo2.png", alt="Marco Richard")
             span(class="brand-name") {
                 strong { "MARCO" }
                 strong { "RICHARD" }
@@ -726,42 +726,6 @@ fn GraduateProgram() -> View {
                 }
 
 
-                div(class="program-highlight neumorph-card") {
-
-                    div {
-                        span {
-                            "MAXIMUM CTC"
-                        }
-
-                        strong {
-                            "₹11.3 LPA"
-                        }
-                    }
-
-
-                    div {
-                        span {
-                            "QUALIFICATION"
-                        }
-
-                        strong {
-                            "MBA"
-                        }
-                    }
-
-
-                    div {
-                        span {
-                            "FUNCTION"
-                        }
-
-                        strong {
-                            "MARKETING"
-                        }
-                    }
-                }
-
-
                 div(class="journey-track") {
 
                     article(class="journey-step neumorph-inset") {
@@ -859,7 +823,7 @@ fn CareerFit() -> View {
                     div {
 
                         span(class="section-kicker") {
-                            "08 · WHO WE'RE LOOKING FOR"
+                            "07 · WHO WE'RE LOOKING FOR"
                         }
 
                         h2 {
@@ -978,7 +942,7 @@ fn Contact() -> View {
                     div {
 
                         span(class="section-kicker") {
-                            "10 · GET IN TOUCH"
+                            "08 · GET IN TOUCH"
                         }
 
                         h2 {
@@ -1076,11 +1040,7 @@ fn App() -> View {
 
                 Careers()
 
-                GraduateProgram()
-
                 CareerFit()
-
-                Apply()
 
                 Contact()
             }
