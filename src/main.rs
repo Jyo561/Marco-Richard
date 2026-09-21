@@ -942,7 +942,7 @@ fn Contact() -> View {
                     div {
 
                         span(class="section-kicker") {
-                            "08 · GET IN TOUCH"
+                            "06 · GET IN TOUCH"
                         }
 
                         h2 {
@@ -1037,10 +1037,6 @@ fn App() -> View {
                 Consumer()
 
                 Innovation()
-
-                Careers()
-
-                CareerFit()
 
                 Contact()
             }
