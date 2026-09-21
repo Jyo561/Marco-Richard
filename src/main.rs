@@ -27,7 +27,6 @@ fn Navbar() -> View {
                     a(href="#about") { "ABOUT" }
                     a(href="#brands") { "OUR BRANDS" }
                     a(href="#world") { "OUR WORLD" }
-                    a(href="#careers") { "CAREERS" }
                 }
 
                 div(class="nav-actions") {
@@ -965,11 +964,11 @@ fn Contact() -> View {
                             "hello@marcorichard.example"
                         }
 
-                        a(
-                            href="#careers"
-                        ) {
-                            "Careers →"
-                        }
+                        //a(
+                        //    href="#careers"
+                        //) {
+                        //    "Careers →"
+                        //}
 
                         a(
                             href="#brands"
@@ -1001,7 +1000,7 @@ fn Footer() -> View {
                     a(href="#about") { "ABOUT" }
                     a(href="#brands") { "BRANDS" }
                     a(href="#world") { "OUR WORLD" }
-                    a(href="#careers") { "CAREERS" }
+                    //a(href="#careers") { "CAREERS" }
                 }
 
                 span {
